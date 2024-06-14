@@ -15,8 +15,8 @@ Robust Video Matting:https://github.com/PeterL1n/RobustVideoMatting
 ├──── RobustVideoMatting-master
 ├──── in-context-matting-main
 ````
-## 运行指南
-### 运行环境
+## 3.运行指南
+### 3.1 运行环境
 * python 3.8
 * torch 2.3.0
 * torchvision 0.15.1
@@ -24,7 +24,7 @@ Robust Video Matting:https://github.com/PeterL1n/RobustVideoMatting
 * diffusers 0.28.2
 
 其他库版本详见In-context Matting与Robust Video Matting的github仓库
-### 程序运行
+### 3.2 程序运行
 首先下载权重文件到in-context-matting-main下，权重链接：    
 链接：https://pan.baidu.com/s/1JktLYB1tL72leWu5wFO46g?pwd=r636 
 提取码：r636  
