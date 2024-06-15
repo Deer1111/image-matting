@@ -25,15 +25,18 @@ Robust Video Matting:https://github.com/PeterL1n/RobustVideoMatting
 
 其他库版本详见In-context Matting与Robust Video Matting的github仓库
 ### 3.2 程序运行
-首先下载权重文件到in-context-matting-main下，权重链接：    
+1、首先下载权重文件到in-context-matting-main下，权重链接：    
 链接：https://pan.baidu.com/s/1JktLYB1tL72leWu5wFO46g?pwd=r636 
-提取码：r636  
+提取码：r636    
 
-在In-context Matting与Robust Video Matting中都是首先运行**MyEval.py**文件生成output_frames与true_alpha两个文件夹之后再运行**MyEvaluate.py**文件输出评价指标的值。  
+2、在In-context Matting与Robust Video Matting中都是首先运行**MyEval.py**文件生成output_frames与true_alpha两个文件夹之后再运行**MyEvaluate.py**文件输出评价指标的值。    
 
-如果不想运行模型，可以在下面的链接中下载已经生成的output_frames与true_alpha两个文件夹。  
-
+3、如果不想运行模型，可以在下面的链接中下载已经生成的output_frames与true_alpha两个文件夹。  
 链接：https://pan.baidu.com/s/1v_1vhe-dHRl2oDQDc5HEJQ?pwd=bneh 
 提取码：bneh  
+将相应模型的output_frames与true_alpha两个文件夹放在相应模型的文件夹下，直接运行MyEvaluate.py文件即可得到模型的评价指标值。    
 
-将相应模型的output_frames与true_alpha两个文件夹放在相应模型的文件夹下，直接运行MyEvaluate.py文件即可得到模型的评价指标值。
+4、完整项目文件：  
+链接：https://pan.baidu.com/s/1x-trlYfvyK-GhZwAJxDYkQ?pwd=aa29 
+提取码：aa29  
+包括上述权重、数据以及运行生成的output_frames等
